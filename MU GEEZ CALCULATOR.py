@@ -1,6 +1,6 @@
 # Make a calculator that gets 2 inputs from the user 
 # the calculator that can multiply, add and find the modulas of the numbers 
-# comment the calculator is keeps history
+# comment the calculator is keeps history for calculation
 
 import math
 
