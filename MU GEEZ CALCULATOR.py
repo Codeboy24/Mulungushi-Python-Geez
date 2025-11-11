@@ -94,21 +94,21 @@ def memory_clear():
 # Calculator menu
 def calculator():
     while True:
-        print("\n--- WELCOME TO PYTHON INTELLECTUAL'S CALCULATOR -------NO LIMITS TO TRYING-------------")
-        print("1- Addition")
-        print("2- Subtraction")
-        print("3- Multiplication")
-        print("4- Divide")
-        print("5- Modulus")
-        print("6- Power")
-        print("7- Square Root")
-        print("8- Show History")
-        print("9- Clear History")
-        print("10- Memory Add (M+)")
-        print("11- Memory Subtraction (M-)")
-        print("12- Memory Recall (MR)")
-        print("13- Memory Clear (MC)")
-        print("14- Exit")
+        print("\n--- WELCOME TO PYTHON INTELLECTUAL'S CALCULATOR -------NO LIMITS TO TRYING-------------\n"
+        "1- Addition\n"
+        "2- Subtraction\n"
+        "3- Multiplication\n"
+        "4- Divide\n"
+        "5- Modulus\n"
+        "6- Power\n"
+        "7- Square Root\n"
+        "8- Show History\n"
+        "9- Clear History\n"
+        "10- Memory Add (M+)\n"
+        "11- Memory Subtraction (M-)\n"
+        "12- Memory Recall (MR)\n"
+        "13- Memory Clear (MC)\n"
+        "14- Exit")
 
         try:
             option = int(input("Choose an option (1-14): "))
